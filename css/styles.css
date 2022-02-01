@@ -9,11 +9,4 @@ p {
   margin: 0;
   padding: 0;
 }
-li {
-  list-style: none;
-  color: green;
-}
-.rule {
-  list-style: upper-roman;
-  color: navy;
-}
+
