@@ -2,23 +2,51 @@ body {
   font-family: 'Roboto', sans-serif;
   color: #ffffff;
 }
+footer {
+  background: #2f303a;
+}
 /* верхняя линия */
-.webstudio {
+.webstudio-link {
   font-family: 'Raleway', sans-serif;
   font-size: 26px;
+  color: #2196f3;
+}
+.links-navigation {
+  font-size: 14px;
+  color: #212121;
+}
+.links-navigation .link:hover {
+  color: #2196f3;
+}
+
+/* контакты */
+.contacts-link {
+  font-style: normal;
+  font-size: 14px;
+  color: #757575;
+}
+.email-link {
+  font-style: normal;
+  font-size: 14px;
+  color: #757575;
+}
+.tel-link {
+  font-style: normal;
+  font-size: 14px;
+  color: #757575;
+}
+.address-link {
+  font-style: normal;
+  font-size: 14px;
+  color: #ffffff;
 }
 /* кнопки */
-.button {
+.buttons {
+  font-family: 'Roboto', sans-serif;
   font-size: 16px;
   color: #212121;
   background: #f5f4fa;
 }
-
-.email {
-  font-size: 14px;
-  color: #757575;
-}
-.tel {
-  font-size: 14px;
-  color: #757575;
+.buttons .button:hover {
+  color: #2196f3;
 }
