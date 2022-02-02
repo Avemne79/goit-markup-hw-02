@@ -5,7 +5,7 @@ body {
 footer {
   background: #2f303a;
 }
-/* верхняя линия */
+/* верхняя линия, навигация */
 .webstudio-link {
   font-family: 'Raleway', sans-serif;
   font-size: 26px;
@@ -15,29 +15,19 @@ footer {
   font-size: 14px;
   color: #212121;
 }
-.links-navigation .link:hover {
-  color: #2196f3;
-}
+.links-navigation .link:hover,
 .links-navigation .link:focus {
   color: #2196f3;
 }
 
-/* контакты */
-.contacts-link {
-  font-style: normal;
-  font-size: 14px;
-  color: #757575;
-}
-.email-link {
-  font-style: normal;
-  font-size: 14px;
-  color: #757575;
-}
+/* как связаться */
+.email-link,
 .tel-link {
   font-style: normal;
   font-size: 14px;
   color: #757575;
 }
+
 .address-link {
   font-style: normal;
   font-size: 14px;
@@ -45,14 +35,20 @@ footer {
 }
 /* кнопки */
 .buttons {
-  font-family: 'Roboto', sans-serif;
   font-size: 16px;
   color: #212121;
   background: #f5f4fa;
 }
-.buttons .button:hover {
+.buttons .type:hover,
+.buttons .type:focus {
   color: #2196f3;
 }
-.buttons .button:focus {
-  color: #2196f3;
+/* наши проекты */
+h2 {
+  font-size: 18px;
+  color: #212121;
+}
+p {
+  font-size: 16px;
+  color: #757575;
 }
