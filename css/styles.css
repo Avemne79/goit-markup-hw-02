@@ -1,5 +1,24 @@
 body {
-  font-family: 'Raleway', sans-serif;
   font-family: 'Roboto', sans-serif;
-  background: #ffffff;
+  color: #ffffff;
+}
+/* верхняя линия */
+.webstudio {
+  font-family: 'Raleway', sans-serif;
+  font-size: 26px;
+}
+/* кнопки */
+.button {
+  font-size: 16px;
+  color: #212121;
+  background: #f5f4fa;
+}
+
+.email {
+  font-size: 14px;
+  color: #757575;
+}
+.tel {
+  font-size: 14px;
+  color: #757575;
 }
