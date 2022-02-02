@@ -18,6 +18,9 @@ footer {
 .links-navigation .link:hover {
   color: #2196f3;
 }
+.links-navigation .link:focus {
+  color: #2196f3;
+}
 
 /* контакты */
 .contacts-link {
@@ -48,5 +51,8 @@ footer {
   background: #f5f4fa;
 }
 .buttons .button:hover {
+  color: #2196f3;
+}
+.buttons .button:focus {
   color: #2196f3;
 }
