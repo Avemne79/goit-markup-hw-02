@@ -1,3 +1,17 @@
+/* цвет основного фона #ffffff; */
+
+/* цвет фона футера #2f303a; */
+
+/* цвет фона кнопок #f5f4fa; */
+
+/* цвет основного текста #212121; */
+
+/* цвет вторичного текста #757575; */
+
+/* цвет акцента #2196f3; */
+:root {
+  --primary-color: #ffffff;
+}
 body {
   font-family: 'Roboto', sans-serif;
   color: #ffffff;
@@ -5,6 +19,10 @@ body {
 footer {
   background: #2f303a;
 }
+.list {
+  list-style: none;
+}
+
 /* верхняя линия, навигация */
 .webstudio-link {
   font-family: 'Raleway', sans-serif;
@@ -27,12 +45,12 @@ footer {
   font-size: 14px;
   color: #757575;
 }
-
 .address-link {
   font-style: normal;
   font-size: 14px;
   color: #ffffff;
 }
+
 /* кнопки */
 .buttons {
   font-size: 16px;
@@ -43,6 +61,7 @@ footer {
 .buttons .type:focus {
   color: #2196f3;
 }
+
 /* наши проекты */
 h2 {
   font-size: 18px;
