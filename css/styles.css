@@ -10,73 +10,105 @@
 
 /* цвет акцента #2196f3; */
 :root {
-  --primary-color: #ffffff;
+  --primary-bg-color: #ffffff;
+  --footer-bg-color: #2f303a;
+  --buttons-bg-color: #f5f4fa;
+  --primary-text-color: #212121;
+  --secondary-text-color: #757575;
+  --accent-color: #2196f3;
 }
 body {
   font-family: 'Roboto', sans-serif;
-  color: #ffffff;
+  color: var(--primary-text-color);
+  background-color: var(--primary-bg-color);
 }
-footer {
-  background: #2f303a;
-}
-.list {
-  list-style: none;
+/* убираю точки в li */
+.links-navigation,
+.our-contacts,
+.buttons,
+.projects-list-description,
+.footer-list {
+  list-style-type: none;
 }
 
 /* верхняя линия, навигация */
 .webstudio-link {
   font-family: 'Raleway', sans-serif;
+  font-style: normal;
+  font-weight: bold;
   font-size: 26px;
-  color: #2196f3;
+  line-height: 31px;
+  color: var(--accent-color);
+}
+.studio {
+  color: var(--primary-text-color);
 }
 .links-navigation {
+  font-style: normal;
+  font-weight: 500;
   font-size: 14px;
-  color: #212121;
+  line-height: 16px;
+}
+.link {
+  color: var(--primary-text-color);
 }
 .links-navigation .link:hover,
-.links-navigation .link:focus {
-  color: #2196f3;
+:focus {
+  color: var(--accent-color);
 }
 
 /* как связаться */
-.email-link,
-.tel-link {
+.email-contact,
+.tel-contact {
   font-style: normal;
+  font-weight: 500;
   font-size: 14px;
-  color: #757575;
+  line-height: 16px;
+  color: var(--secondary-text-color);
 }
+.email-contact:hover,
+:focus {
+  color: var(--accent-color);
+}
+.tel-contact:hover,
+:focus {
+  color: var(--accent-color);
+}
+/* адрес из футера */
 .address-link {
   font-style: normal;
+  font-weight: normal;
   font-size: 14px;
-  color: #ffffff;
-}
-.email-link:hover,
-:focus {
-  color: #2196f3;
-}
-.tel-link:hover,
-:focus {
-  color: #2196f3;
+  color: var(--primary-bg-color);
 }
 
 /* кнопки */
-.buttons {
+.type {
   font-size: 16px;
+  line-height: 26px;
   cursor: pointer;
-  color: #212121;
-  background: #f5f4fa;
+  color: var(--primary-text-color);
+  background: var(--buttons-bg-color);
 }
-.buttons .type:hover,
-.buttons .type:focus {
-  color: #2196f3;
+.type:hover,
+:focus {
+  color: var(--accent-color);
 }
 
 /* наши проекты */
-h2 {
+.header-project {
   font-size: 18px;
-  color: #212121;
+  line-height: 36px;
 }
-p {
+.header-text {
   font-size: 16px;
-  color: #757575;
+  line-height: 30px;
+  color: var(--secondary-text-color);
+}
+/* футер */
+.footer {
+  background: var(--footer-bg-color);
+}
+.studio-footer {
+  color: var(--primary-bg-color);
 }
