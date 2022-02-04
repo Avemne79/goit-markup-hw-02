@@ -37,7 +37,7 @@ body {
   font-style: normal;
   font-weight: bold;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.2;
   color: var(--accent-color);
 }
 .studio {
@@ -47,7 +47,7 @@ body {
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.15;
 }
 .link {
   color: var(--primary-text-color);
@@ -63,7 +63,7 @@ body {
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.15;
   color: var(--secondary-text-color);
 }
 .email-contact:hover,
@@ -79,13 +79,14 @@ body {
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
+  line-height: 1.15;
   color: var(--primary-bg-color);
 }
 
 /* кнопки */
 .type {
   font-size: 16px;
-  line-height: 26px;
+  line-height: 1.63;
   cursor: pointer;
   color: var(--primary-text-color);
   background: var(--buttons-bg-color);
@@ -98,11 +99,11 @@ body {
 /* наши проекты */
 .header-project {
   font-size: 18px;
-  line-height: 36px;
+  line-height: 2;
 }
 .header-text {
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.9;
   color: var(--secondary-text-color);
 }
 /* футер */
