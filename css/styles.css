@@ -148,16 +148,16 @@ body {
 }
 /* свойства кнопки primary */
 .button.primary {
+  color: var(--primary-color);
+  background-color: var(--accent-color);
+}
+.button.primary:hover {
   color: var(--primary-text-color);
   background-color: var(--buttons-bg-color);
 }
-.button.primary:hover {
-  color: var(--primary-color);
-  background-color: var(--accent-color);
-}
 .button.primary:focus {
-  color: var(--primary-color);
-  background-color: var(--accent-color);
+  color: var(--primary-text-color);
+  background-color: var(--buttons-bg-color);
 }
 /* свойства кнопки secondary */
 .button.secondary {
