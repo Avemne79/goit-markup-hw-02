@@ -39,10 +39,10 @@ body {
   text-decoration: none;
   color: var(--primary-text-color);
 }
-.active {
+.link.current {
   color: var(--accent-color);
 }
-.link.active:hover,
+.link.current:hover,
 :focus {
   color: var(--primary-text-color);
 }
