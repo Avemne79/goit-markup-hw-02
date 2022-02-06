@@ -1,16 +1,11 @@
-/* цвет основного фона #ffffff; */
-
+/* основной цвет #ffffff; */
 /* цвет фона футера #2f303a; */
-
 /* цвет фона кнопок #f5f4fa; */
-
 /* цвет основного текста #212121; */
-
 /* цвет вторичного текста #757575; */
-
 /* цвет акцента #2196f3; */
 :root {
-  --primary-bg-color: #ffffff;
+  --primary-color: #ffffff;
   --footer-bg-color: #2f303a;
   --buttons-bg-color: #f5f4fa;
   --primary-text-color: #212121;
@@ -20,9 +15,13 @@
 body {
   font-family: 'Roboto', sans-serif;
   color: var(--primary-text-color);
-  background-color: var(--primary-bg-color);
+  background-color: var(--primary-color);
 }
+
 /* убираю точки в li */
+.features,
+.what-we-do,
+.our-team,
 .links-navigation,
 .our-contacts,
 .buttons,
@@ -34,23 +33,23 @@ body {
 /* верхняя линия, навигация */
 .webstudio-link {
   font-family: 'Raleway', sans-serif;
-  font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
+  text-decoration: none;
   color: var(--accent-color);
 }
 .studio {
   color: var(--primary-text-color);
 }
 .links-navigation {
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.15;
 }
 .link {
   color: var(--primary-text-color);
+  text-decoration: none;
 }
 .links-navigation .link:hover,
 :focus {
@@ -64,6 +63,7 @@ body {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.15;
+  text-decoration: none;
   color: var(--secondary-text-color);
 }
 .email-contact:hover,
@@ -74,34 +74,114 @@ body {
 :focus {
   color: var(--accent-color);
 }
+
 /* адрес из футера */
 .address-link {
   font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.15;
-  color: var(--primary-bg-color);
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
+/* шапка */
+.solutions {
+  background-color: var(--footer-bg-color);
+}
+.header-solutions {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.38;
+  color: var(--primary-color);
+}
+
+/* особенности */
+.header-features {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.15;
+  color: var(--primary-text-color);
+}
+.text-features {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.15;
+  color: var(--secondary-text-color);
+}
+
+/* чем мы занимаемся */
+.header-what-we-do {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  color: var(--primary-text-color);
+}
+
+/* наша команда */
+.header-team {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  color: var(--primary-text-color);
+}
+.header-team-people {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+  color: var(--primary-text-color);
+}
+.text-team-people {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.2;
+  color: var(--secondary-text-color);
 }
 
 /* кнопки */
-.type {
+.button {
+  font-weight: 500;
   font-size: 16px;
-  line-height: 1.63;
+  line-height: 1.9;
   cursor: pointer;
-  color: var(--primary-text-color);
-  background: var(--buttons-bg-color);
+  border-color: transparent;
 }
-.type:hover,
-:focus {
-  color: var(--accent-color);
+/* свойства кнопки primary */
+.button.primary {
+  color: var(--primary-text-color);
+  background-color: var(--buttons-bg-color);
+}
+.button.primary:hover {
+  color: var(--primary-color);
+  background-color: var(--accent-color);
+}
+.button.primary:focus {
+  color: var(--primary-color);
+  background-color: var(--accent-color);
+}
+/* свойства кнопки secondary */
+.button.secondary {
+  color: var(--primary-text-color);
+  background-color: var(--buttons-bg-color);
+}
+.button.secondary:hover {
+  color: var(--primary-color);
+  background-color: var(--accent-color);
+}
+.button.secondary:focus {
+  color: var(--primary-color);
+  background-color: var(--accent-color);
 }
 
 /* наши проекты */
 .header-project {
+  font-weight: 700;
   font-size: 18px;
   line-height: 2;
+  color: var(--primary-text-color);
 }
 .header-text {
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.9;
   color: var(--secondary-text-color);
@@ -111,5 +191,5 @@ body {
   background: var(--footer-bg-color);
 }
 .studio-footer {
-  color: var(--primary-bg-color);
+  color: var(--primary-color);
 }
