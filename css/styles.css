@@ -18,19 +18,8 @@ body {
   background-color: var(--primary-color);
 }
 
-/* убираю точки в li */
-.features,
-.what-we-do,
-.our-team,
-.links-navigation,
-.our-contacts,
-.buttons,
-.projects-list-description,
-.footer-list {
-  list-style-type: none;
-}
-
-/* верхняя линия, навигация */
+/* верхняя линия */
+/* логотип */
 .webstudio-link {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
@@ -42,6 +31,7 @@ body {
 .studio {
   color: var(--primary-text-color);
 }
+/* навигация */
 .link {
   font-weight: 500;
   font-size: 14px;
@@ -51,6 +41,10 @@ body {
 }
 .active {
   color: var(--accent-color);
+}
+.link.active:hover,
+:focus {
+  color: var(--primary-text-color);
 }
 .link:hover,
 :focus {
@@ -74,16 +68,6 @@ body {
 .tel-contact:hover,
 :focus {
   color: var(--accent-color);
-}
-
-/* адрес из футера */
-.address-link {
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.15;
-  text-decoration: none;
-  color: var(--primary-color);
 }
 
 /* шапка */
@@ -181,7 +165,7 @@ body {
   line-height: 2;
   color: var(--primary-text-color);
 }
-.header-text {
+.text-project {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.9;
@@ -193,4 +177,25 @@ body {
 }
 .studio-footer {
   color: var(--primary-color);
+}
+/* адрес из футера */
+.address-link {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.15;
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
+/* убираю точки в li */
+.features-list,
+.what-we-do-list,
+.our-team,
+.navigation,
+.contacts,
+.buttons,
+.projects-list,
+.footer-contacts {
+  list-style-type: none;
 }
