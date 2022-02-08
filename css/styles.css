@@ -166,7 +166,7 @@ body {
   color: var(--primary-text-color);
 }
 .text-project {
-  font-weight: 500;
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.9;
   color: var(--secondary-text-color);
